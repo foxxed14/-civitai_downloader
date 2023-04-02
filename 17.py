@@ -63,8 +63,7 @@ def is_pickle(file_path):
         return True
     except (pickle.UnpicklingError, EOFError):
         return False
-
-model_dir = r'C:\Users\FOX\stable-diffusion-webui\models\Stable-diffusion'
+model_dir = r'C:\Users\FOX\stable-diffusion-webui\models\Stable-diffusion'  #WAY TO MODELS EXAMPLE
 url = 'https://civitai.com/api/v1/models'
 params = {
     'limit': 100,
